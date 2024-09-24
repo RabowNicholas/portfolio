@@ -8,13 +8,13 @@ export default function PlaygroundTile({ className }: { className?: string }) {
     <Tilt
       className={`${className}  bg-darkBlack rounded-xl p-4 border-4 border-transparent hover:border-lavender transition-all duration-300`}
     >
-      <Link
-        href="/playground"
-        className="flex justify-between items-center text-3xl"
+      <div
+        // href="/playground"
+        className="flex justify-between items-center text-3xl cursor-not-allowed"
       >
         playground
-        <ArrowOutward className="text-lavender" />
-      </Link>
+        <ArrowOutward className="text-gray-100" />
+      </div>
     </Tilt>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 import { Tilt } from "@jdion/tilt-react";
-import { BarChart } from "@mui/icons-material"; // You can choose any icon that fits your style
+import { BarChart } from "@mui/icons-material";
 
 export default function StatsTile({ className }: { className?: string }) {
   return (

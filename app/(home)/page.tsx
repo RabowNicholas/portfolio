@@ -16,7 +16,7 @@ export default function Home() {
           <StatsTile className="h-full w-full" />
         </div>
 
-        <div className="lg:col-span-2 lg:row-span-5 md:row-span-3 md:col-span-4 sm:col-span-1">
+        <div className="lg:col-span-2 lg:row-span-4 md:row-span-3 md:col-span-4 sm:col-span-1">
           <SocialsTile className="h-full w-full" />
         </div>
         <div className="lg:col-span-2 lg:row-span-1 md:row-span-1 md:col-span-4 sm:col-span-1">

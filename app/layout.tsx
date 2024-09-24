@@ -22,7 +22,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-richBlack text-white ${robot.className}`}>
         {children}
-        <script src="tilt.jquery.js"></script>
       </body>
     </html>
   );

@@ -7,14 +7,30 @@
   @apply bg-neonPurple text-white font-bold py-2 px-4 rounded shadow hover:bg-darkViolet hover:scale-105 transition duration-300 uppercase text-center;
 }
 
+.button-primary-filled:disabled {
+  @apply bg-gray-400 text-gray-200 cursor-not-allowed opacity-50; /* Styles for disabled state */
+}
+
 .button-primary-transparent {
   @apply bg-transparent text-neonPurple border border-neonPurple font-bold py-2 px-4 rounded hover:text-darkViolet hover:scale-105 transition duration-300 uppercase text-center;
+}
+
+.button-primary-transparent:disabled {
+  @apply bg-transparent text-gray-400 border-gray-400 cursor-not-allowed opacity-50; /* Styles for disabled state */
 }
 
 .button-secondary-filled {
   @apply bg-apricot text-white font-bold py-2 px-4 rounded shadow hover:bg-peach hover:scale-105 transition duration-300 uppercase text-center;
 }
 
+.button-secondary-filled:disabled {
+  @apply bg-gray-400 text-gray-200 cursor-not-allowed opacity-50; /* Styles for disabled state */
+}
+
 .button-secondary-transparent {
   @apply bg-transparent text-apricot border border-apricot font-bold py-2 px-4 rounded hover:text-peach hover:scale-105 transition duration-300 uppercase text-center;
+}
+
+.button-secondary-transparent:disabled {
+  @apply bg-transparent text-gray-400 border-gray-400 cursor-not-allowed opacity-50; /* Styles for disabled state */
 }

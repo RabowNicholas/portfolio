@@ -1,7 +1,6 @@
 "use client";
 import { Tilt } from "@jdion/tilt-react";
 import { ArrowOutward } from "@mui/icons-material";
-import Link from "next/link";
 
 export default function PlaygroundTile({ className }: { className?: string }) {
   return (

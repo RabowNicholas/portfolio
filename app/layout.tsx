@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "./styles/globals.css";
+import "./styles/buttons.css";
+import { Roboto } from "next/font/google";
+
+const robot = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`bg-richBlack text-white ${robot.className}`}>
+        {children}
+        <script src="tilt.jquery.js"></script>
+      </body>
     </html>
   );
 }

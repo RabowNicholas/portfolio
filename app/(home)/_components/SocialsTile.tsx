@@ -39,7 +39,7 @@ export default function SocialsTile({ className }: { className?: string }) {
             target="_blank"
             className="button-secondary-transparent w-full"
           >
-            GitLab
+            GitHub
           </Link>
         </div>
       </div>

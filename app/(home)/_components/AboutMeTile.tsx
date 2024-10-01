@@ -47,11 +47,10 @@ export default function AboutMeTile({ className }: { className?: string }) {
             Connect with me on LinkedIn!
           </Link>
           <Link
-            href="https://calendly.com/rabownick123/30min"
-            target="_blank"
+            href="/ndr-business-consulting"
             className="button-primary-transparent"
           >
-            Book a call with me
+            see my services
           </Link>
         </div>
       </div>

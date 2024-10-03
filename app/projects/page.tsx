@@ -24,7 +24,7 @@ const projects: Project[] = [
     description:
       "Crafted a sleek and functional e-commerce site for H1 Hydration, specializing in hydrogen-infused water. Leveraging my skills in full-stack development, I created a seamless shopping experience that not only facilitates orders but also elevates brand presence in a competitive market.",
     link: "https://h1-website.vercel.app",
-    complete: true,
+    complete: false,
   },
   {
     title: "Music Festival Budget App",
@@ -34,7 +34,7 @@ const projects: Project[] = [
       "Currently in development, this app will serve as the focal point of our marketing funnel, directing users to a seamless budgeting experience for music festivals.",
     description:
       "Designed to empower music lovers to attend more events, this innovative application will feature a suite of tools tailored for eventgoers. As the sole developer, I’m collaborating closely with a dedicated group of beta users to refine core functionalities and explore monetization strategies for a premium version, ensuring the app meets the real needs of its users.",
-    link: "",
+    link: "https://rave-budget-app.vercel.app/",
     complete: false,
   },
 ];

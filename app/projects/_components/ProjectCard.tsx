@@ -10,7 +10,7 @@ export interface Project {
   client: string;
   outcome: string;
   link: string;
-  complete: boolean; // Added field for completion status
+  complete: boolean;
 }
 
 export default function ProjectCard({ project }: { project: Project }) {
@@ -47,20 +47,14 @@ export default function ProjectCard({ project }: { project: Project }) {
           >
             {project.complete ? "Completed" : "In Development"}
           </div>
-          {project.complete ? (
-            <Link
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="button-primary-filled"
-            >
-              View Project
-            </Link>
-          ) : (
-            <button className="button-primary-filled" disabled>
-              View project
-            </button>
-          )}
+          <Link
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="button-primary-filled"
+          >
+            View Project
+          </Link>
         </div>
       </div>
     </Tilt>
